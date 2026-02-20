@@ -12,12 +12,12 @@ PLATFORM_WINDOWS = "windows"
 PLATFORM_LINUX = "linux"
 PLATFORM_MACOS = "mac"
 
-DOTNET_RUNTIME_VERSION = "8.0.0"
+DOTNET_RUNTIME_VERSION = "10.0.0"
 
 DOTNET_RUNTIME_DOWNLOADS = {
-    PLATFORM_LINUX: "https://download.visualstudio.microsoft.com/download/pr/fc4b4447-45f2-4fd2-899a-77eb1aed7792/6fd52c0c61f064ddc7fe7684e841f491/dotnet-runtime-8.0.0-linux-x64.tar.gz",
-    PLATFORM_WINDOWS: "https://download.visualstudio.microsoft.com/download/pr/924f2e25-ba50-4b90-a35c-6ef73d1149a3/b9a57fa45dad7cca93a0aa937a8ba03d/dotnet-runtime-8.0.0-win-x64.zip",
-    PLATFORM_MACOS: "https://download.visualstudio.microsoft.com/download/pr/65e0ad28-b73d-46ab-b3ae-2d2ae4460b78/50ee103e816a255f9a5331bc2975a6ef/dotnet-runtime-8.0.0-osx-x64.tar.gz"
+    PLATFORM_LINUX: "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.0/dotnet-runtime-10.0.0-linux-x64.tar.gz",
+    PLATFORM_WINDOWS: "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.0/dotnet-runtime-10.0.0-win-x64.zip",
+    PLATFORM_MACOS: "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.0/dotnet-runtime-10.0.0-osx-x64.tar.gz"
 }
 
 p = os.path.join
